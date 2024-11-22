@@ -75,7 +75,7 @@ jobs:
 
       # Étape : Téléverser le rapport ZAP
       - name: "Upload ZAP Report"
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v3
         with:
           name: zap-scan-report
           path: ./tests/zap-report.json
